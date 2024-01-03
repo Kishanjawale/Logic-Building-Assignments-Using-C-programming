@@ -1,6 +1,5 @@
 //Accept one number from user and print that number of * on screen
 #include<stdio.h>
-#include<conio.h>
 void display(int iValue)
 {
     int iCnt=0;
@@ -9,8 +8,6 @@ void display(int iValue)
         printf("* ");
     }
 }
-
-
 int main()
 {
     int iValue=0;
