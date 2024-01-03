@@ -3,7 +3,7 @@
 #include<stdbool.h>
 typedef int BOOL;
 #define TRUE 1;
-#define FALSE 0;
+#define FALSE 0;   
 bool CheckValue(int iNo1)
 {
     if((iNo1%5)==0)
